@@ -1,0 +1,27 @@
+###########################################################################################
+Exercise 1
+###########################################################################################
+1. Added a dockerfile
+2. Built and published docker image to dockerhub
+3. Created kubernetes artifacts(deployment.yml, service.yml and hpa.yml)
+4. Setup a minikube cluster in local machine
+5. Applied the kubernetes artifacts
+
+Multiple replicas, Rolling update, ReadinessProbe and livenessProbe as well as HPA are configured to achieve high availability 
+Please find the evidence in the folder "Screenshots for Evidence" within the "Exercise 1" directory
+
+
+###########################################################################################
+Exercise 2
+###########################################################################################
+Created the terraform files to setup a AWS EKS cluster with 3 nodes from scratch including Security groups and VPCs.
+The cluster have multiple worker nodes to have high availability
+
+Please find the evidence in the folder "Screenshots for Evidence" within the "Exercise 1" directory
+
+
+###########################################################################################
+Exercise 3
+###########################################################################################
+Please find the PDF file in the "Exercise 3" directory which describes my design of Blue/Green deployment.
+It explains 2 solutions out of which for this case I prefer the first option.
